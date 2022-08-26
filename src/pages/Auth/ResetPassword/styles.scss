@@ -1,0 +1,31 @@
+.seller__info {
+    background-image: url('../../../assets/loginBack.png');
+
+    padding: 80px 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    
+    display:flex;
+    align-items: center;
+}
+.seller__info .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+    .seller__info .content .form-control {
+    height: 50px;
+    border-color: 1p solid #ffffff;
+    border-radius:0;
+    }
+    .seller__info .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    .seller__info .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+    }

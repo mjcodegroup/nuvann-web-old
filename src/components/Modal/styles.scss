@@ -1,0 +1,40 @@
+.__modal {
+    position: absolute;
+    width: 100%;
+    height: 190%;
+    top: 0;
+    left: 0;
+    z-index: 99999999999999;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+
+
+    
+    .__modal_container{
+        position: fixed;
+        top: 15%;
+
+        color: #000;
+        width: 60%;
+        
+        display: flex;
+        justify-content: center;
+
+        .modal__button_close {
+            position: absolute;
+            top: 2%;
+            right: 27%;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .__modal_container{
+        width: 100%;
+        border: 3px solid red;
+    }
+}

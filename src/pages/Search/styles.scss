@@ -1,0 +1,169 @@
+.search{
+  
+  
+  width:100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+
+    .filter{
+      width: 20%;
+      height: 100%;
+      padding-left: 1%;
+      background-color: #FFFFFF;
+      position: sticky;
+      top: 0;
+
+      h2{
+        margin: 30px 0 0 0;
+        font-size: 18px;
+        font-family: roboto;
+        color: black;
+
+      }
+
+
+      .tout_button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 50px 3% 15px 0;
+        width: 90%;
+        height: 33px;
+        background: #1085B9;
+        color: #FFFFFF;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .other_button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 3% 3% 15px 0;
+        width: 90%;
+        height: 33px;
+        background: #E9E9E9;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .btn2:hover{
+        background:#c4c4c4 ;
+      }
+
+      
+      
+    }
+
+   
+
+    .products{
+      background: #E5E5E5;
+      width: 80%;
+      height: 40vh;
+      position: relative;
+
+
+      .top_part{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5%;
+        margin: 2% auto;
+      }
+
+      .top_part h2{
+        font-family: roboto;
+        font-size: 18px;
+        margin-top: 8px;
+        color:  #7A7A7A;
+        font-weight: 400;
+        height: 30px;
+        border-bottom: 1px solid #DBDBDB;
+      }
+
+      .top_part h2 span{
+        color: black;
+        font-weight: 700;
+      }
+
+      .prod_part{
+        height: 78vh;
+        overflow-x: scroll;
+        padding: 3% 2% 0 5%;
+        
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 9px;
+
+        .card{
+         
+          text-align: center;
+          width: 20%;
+          min-width: 190px;
+          height: 240px;
+          background: white;
+          border-radius: 5px;
+          margin-bottom: 35px;
+          cursor: pointer;
+
+       
+
+
+          .first_part{
+            width: 100%;
+            height: 70%;
+            position: relative;
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 5px;
+            }
+            .show-hover{
+              position:absolute;
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+            opacity:0;
+            transition: 0.3s;
+            }
+          }
+
+          .second_part{
+            width: 100%;
+            height: 30%;
+            font-weight: 400;
+          }
+
+          .second_part .price span{
+            font-size: 18px;
+            font-weight: 700;
+          }
+
+        }
+
+        .card:hover{
+          box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.322);
+
+        }
+
+        .card:hover .show-hover{
+          opacity:1
+        }
+  
+      }
+
+      .prod_part::-webkit-scrollbar {
+        display: none;
+      }
+
+    }
+}
+
+

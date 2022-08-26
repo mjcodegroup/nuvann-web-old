@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .product__detail_section{
+        background: #FFFFFF;
+        padding: 1%;
+        height: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product__detail_section {
+        background: #FFFFFF;
+      width:100%
+    }
+
+    .detail__section {
+        padding: 0 16px;
+    }
+
+    .detail__section__body {
+
+        .productDescription  {
+          font-family: 'Times New Roman';
+          color: #595959;
+        }
+    
+        .detail__footer {
+          width: 100%;
+          padding: 5%;
+          button {
+            border: 1px solid red;
+            margin: 0 16px
+          }
+        }
+        
+      }
+}

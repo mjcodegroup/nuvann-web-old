@@ -1,0 +1,17 @@
+.PromCardHolder{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 7% 90px 6%;
+}
+
+.Card1, .Card2{
+    height: 134px;
+    width: 405px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Card1:hover, .Card2:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.363);
+}

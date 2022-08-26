@@ -1,0 +1,217 @@
+
+.Master{
+    display: flex;
+
+}
+
+
+
+
+.moreFiltre{
+    position: absolute;
+    width: 270px;
+    height: 100vh;
+    background-color: white;
+    padding: 0 10px;
+}
+
+
+
+.first_child{
+    margin:25px 0 0 20px;
+  }
+
+
+  .moreFiltre {
+  h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin:30px 0 30px 0;
+  }
+
+  h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+  }
+  h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 40px 0 0 0;
+    color: #000000;
+  }
+}
+
+  .tout{
+    width: 95%;
+    height: 33px;
+    background: #1085B9;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 1rem;
+    padding-top: 7px;
+    cursor: pointer;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+  }
+
+  .mwens_che, .plis_vann{
+    width: 95%;
+    height: 33px;
+    background: #E9E9E9;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 1rem;
+    padding-top: 7px;
+    cursor: pointer;
+    /* identical to box height */
+
+
+    color: #26334B;
+  }
+
+ 
+
+  ul{
+    list-style: none;
+  }
+  ul li{
+    cursor: pointer ;
+    color: grey;
+  }
+
+  ul li:hover{
+    color: rgb(88, 88, 88);
+  }
+
+
+  .cardPart{
+      display: flex;
+      flex-flow: column;
+      margin-left: 270px ;
+      height: 100vh;
+      width: 80%; 
+       
+  }
+
+  .result_part{
+    height: 92%;
+    overflow-x: scroll;
+    padding: 3% 2% 0 5%;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 9px;
+
+    .card{
+     
+      text-align: center;
+      width: 20%;
+      min-width: 190px;
+      height: 240px;
+      background: white;
+      border-radius: 5px;
+      margin-bottom: 35px;
+      cursor: pointer;
+
+   
+
+
+      .first_part{
+        width: 100%;
+        height: 70%;
+        position: relative;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 5px;
+        }
+        .show-hover{
+          position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        opacity:0;
+        transition: 0.3s;
+        }
+      }
+
+      .second_part{
+        width: 100%;
+        height: 30%;
+        font-weight: 400;
+      }
+
+      .second_part .price span{
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+    }
+
+    .card:hover{
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.322);
+
+    }
+
+    .card:hover .show-hover{
+      opacity:1
+    }
+
+  }
+
+
+  .pagination, .paginationBtn{
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+  .result_part::-webkit-scrollbar {
+    display: none;
+  }
+
+  .paginationBtn{
+    margin-right: 7%;
+    color:#0094FF;
+    padding: 20px 0;
+  }
+
+  .Actualpage{
+    text-align: center;
+    margin: 0 20px;
+    height: 25px;
+    width: 35px;
+    border: 1px solid #0094FF;
+    border-radius: 3px;
+  }
+
+  .navigBtn{
+    cursor: pointer;
+  }

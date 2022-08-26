@@ -1,0 +1,102 @@
+.purchase__stepOne {
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 100px;
+        grid-template-areas:
+          ". .";
+
+          margin:40px 0 40px 0;
+        .left {
+            text-align: right;
+            input {
+                margin-bottom: 15px;
+            }
+        }
+        .right{
+            input {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    text-align: center;
+    span {
+        color:#139AD6;
+        margin-top: 59px;
+        margin-left: 5%;
+        &:hover{
+        color:#00173b;
+
+        }
+    }
+}
+
+.purchase__stepTwo {
+    text-align: center;
+    margin: 30px 0 30px 0;
+    
+    span{
+        margin: 30px 0 30px 0;
+    }
+    .stepTwo_creditCard {
+        border-top: 1px solid;
+        border-bottom:1px solid;
+        margin-bottom: 30px;
+        // margin: ;
+    }
+}
+
+.left .stripe__input .form-control{
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0%;
+}
+
+.stripe__input .form-control{
+    border: 1px solid red;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0%;
+}
+
+.purchase__three {
+    text-align: center;
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 100px;
+        grid-template-areas:
+          ". .";
+
+          margin:40px 20px;
+        .left {
+            text-align: right;
+        }
+
+        input {
+            margin-bottom: 15px;
+
+        }
+
+        .stripe__input {
+            margin-bottom: 15px;
+
+        }
+    }
+
+    span {
+        color:#139AD6;
+        // margin-top: 100px;
+        margin-left: 5%;
+        &:hover{
+        color:#00173b;
+
+        }
+    }
+}
+

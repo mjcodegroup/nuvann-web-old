@@ -1,0 +1,51 @@
+.b-select-wrap {
+    border: none;
+    color: #0000A3;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.b-select-wrap::after {
+    content: "⌄";
+    position: absolute;
+    right: 0px;
+    top: -15px;
+    z-index: 1;
+    text-align: center;
+    height: 120%;
+    pointer-events: none;
+    font-size: 35px;
+
+    
+}
+
+.b-select {
+
+    width: 267px;
+    height: 40px;
+    
+    padding: 5px 15px;
+
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #AEAEAE;
+    background: #FFFFFF;
+    -webkit-appearance: none; /* for webkit browsers */
+    -moz-appearance: none; /* for firefox */
+    appearance: none; /* for modern browsers */
+}
+
+/* remove default caret for ie */
+.b-select::-ms-expand {
+   display:none;
+}

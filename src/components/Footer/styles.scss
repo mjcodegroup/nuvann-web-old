@@ -1,0 +1,112 @@
+footer{
+    width:100%;
+    background-color:#F8F8F8;
+    min-height:250px;
+    padding:10px 0px 25px 0px ;
+
+    hr{
+        border-color: #00008B;
+    }
+
+    h5{
+        color:#00008B;
+        font: bold;
+        font-weight: 500px;
+        padding-top:40px;
+        margin-bottom:20px ;
+    }
+
+    p{
+        font-size:13px;
+        color:#484848;
+        padding-bottom:0px;
+        margin-bottom:8px;
+    }
+
+    .footer-adress {
+
+        p{
+            &:hover{
+                color: #00008B;
+            }
+        }
+    }
+
+    .footer-list {
+        margin:0px;
+        list-style-type:none ; 
+        font-size:14px;
+        padding:0px 0px 10px 0px ;
+
+        li{
+            padding:0px 0px 9px 0px;
+
+            &:hover{
+                    color: #00008B;
+
+            }
+
+            a{
+                color:#484848;
+
+                &:hover{
+                    color: #00008B;
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+
+    .container{
+        .footer-menu{
+            list-style-type:none;
+            padding:0px;
+            display:table;
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+
+            img{
+                display: inline;
+                margin:0 12px;
+             }
+        }
+
+        p{
+            
+            a{
+                color: #00008B;
+            }
+        }
+
+        .footer-social-media{
+            display:table;
+            margin:15px auto 0 auto;
+            list-style-type:none;
+
+            li {
+                padding-left:20px;
+                padding-top:10px;
+                float:left;
+
+                a{
+                    color:#484848;
+                    border:1px solid#484848;
+                    padding:8px;border-radius:50%;
+
+                    &:hover{
+                        color: #00008B;
+                        transition: .5s ease-in-out;
+                    }
+                   
+                }
+            }
+
+        }
+    }
+
+    
+
+}
+

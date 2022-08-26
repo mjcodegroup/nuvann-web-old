@@ -1,0 +1,35 @@
+ .love-section {
+  margin: 6%;
+  // .slick-slide {
+  //   padding: 0 2.5em;
+  
+  // }
+}
+
+
+
+.slick-prev:hover,.slick-next:hover,
+.slick-prev:focus,.slick-next:focus{
+  background-color: #06065e;
+}
+
+.slick-prev, .slick-next {
+  position: absolute;
+  z-index: 1;
+  height: 50px;
+  width: 50px;
+  background-color:#00008B;
+  border-radius: 50%;
+}
+
+.slick-prev:before, .slick-next:before {
+   color: #fff !important;
+   background-color: none;
+   font-size: 25px;
+  } 
+
+  @media only screen and (max-width:360px){.product-grid3 .rating{margin:0}
+  .slick-slide {
+    margin-right: 2%s;
+  }
+} 
