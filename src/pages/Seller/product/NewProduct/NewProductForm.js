@@ -172,7 +172,7 @@ export default function NewProductForm() {
             let token = localStorage.getItem('access_token')
 
             
-            const endpoint = 'https://nuvannapi.xyz/api/reseller/products';
+            const endpoint = 'https://nuvannapi.mjcodegroup.com/api/reseller/products';
             // const params = {
             //     mode:'no-cors',
             //     method: 'post',

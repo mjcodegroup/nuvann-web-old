@@ -105,7 +105,7 @@ export default function  Profile(){
         formData.append('email',email);
         formData.append('profile',apearU);
         
-        const endpoint = 'https://nuvannapi.xyz/api/users/update';
+        const endpoint = 'https://nuvannapi.mjcodegroup.com/api/users/update';
         try{
             // const response = await fetch(endpoint,params);
             const response = await axios({

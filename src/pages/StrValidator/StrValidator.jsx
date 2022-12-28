@@ -12,7 +12,7 @@ export const StrValidator = () => {
         showLoader()
         const id = window.localStorage.getItem('strValidator')
         try {
-            api.get(`http://nuvannapi.xyz/api/stripe/connected/retrieve?account_id=${id}`)
+            api.get(`https://nuvannapi.mjcodegroup.com/api/stripe/connected/retrieve?account_id=${id}`)
             .then(response => {
                 history.push('/seller')
             })
