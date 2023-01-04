@@ -1,3 +1,4 @@
+import React from 'react'
 import './Global.scss';
 
 import { Router} from 'react-router-dom';

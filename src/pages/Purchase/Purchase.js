@@ -21,7 +21,7 @@ export const Purchase = () => {
                     <StepThree />
                     ) 
             default:
-                <StepOne/>
+                return <StepOne/>
         }
     }
     return (
